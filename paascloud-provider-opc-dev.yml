@@ -61,8 +61,8 @@ paascloud:
     zkAddressList: paascloud-provider-zk:2181
   qiniu:
     key:
-      accessKey: yourQiniuAccessKey
-      secretKey: yourQiniuSecretKey
+      accessKey: 6JIGcCQXbb4omC1MAyVOhweoOySSFtmWHivsKnY5
+      secretKey: ctIrJtfiUxt75oYPYgKPPAUkKkRucs1ZCPn_5f8P
     oss:
       privateHost:
       publicHost:
@@ -78,8 +78,8 @@ paascloud:
       tokenStore: jwt
   aliyun:
     key:
-      accessKeyId: yourAliyunAccessKey
-      accessKeySecret: yourAliyunKeySecret
+      accessKeyId: LTAISnC7dfiqertI
+      accessKeySecret: AqfXsnkJwpoAUnGheFQ5qcj3hFQMin
     rocketMq:
       enable: true
       reliableMessageConsumer: true
