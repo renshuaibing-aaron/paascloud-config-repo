@@ -111,8 +111,8 @@ paascloud:
       expiredMinutes: 120
   aliyun:
     key:
-      accessKeyId: 'your aliyun accessKeyId'
-      accessKeySecret: 'your aliyun accessKeySecret'
+      accessKeyId: LTAISnC7dfiqertI
+      accessKeySecret: AqfXsnkJwpoAUnGheFQ5qcj3hFQMin
     rocketMq:
       namesrvAddr: paascloud-mq-rocket:9876
     sms:
@@ -120,15 +120,15 @@ paascloud:
       regionId: cn-beijing
       endpoint:
       endpointName: cn-beijing
-      product: 'your sms product'
+      product: Dysmsapi
       domain: dysmsapi.aliyuncs.com
   qiniu:
     key:
-      accessKey: 'your qiniu accessKey'
-      secretKey: 'your qiniu secretKey'
+      accessKey: 6JIGcCQXbb4omC1MAyVOhweoOySSFtmWHivsKnY5
+      secretKey: ctIrJtfiUxt75oYPYgKPPAUkKkRucs1ZCPn_5f8P
     oss:
-      privateHost: 'your qiniu oss private host'
-      publicHost: 'your qiniu oss public host'
+      privateHost: pi4dnu0sz.bkt.clouddn.com
+      publicHost: pi4djncfj.bkt.clouddn.com
   alipay:
     callback:
       url: http://dev-api.paascloud.net/omc/pay/alipayCallback
