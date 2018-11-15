@@ -112,6 +112,7 @@ proxy:
 
 paascloud:
   enableSqlLogInterceptor: false
+  
 # swagger butler配置
 swagger.butler:
   api-docs-path: v2/api-docs
