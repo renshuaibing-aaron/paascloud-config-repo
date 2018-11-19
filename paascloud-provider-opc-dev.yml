@@ -64,8 +64,8 @@ paascloud:
       accessKey: 6JIGcCQXbb4omC1MAyVOhweoOySSFtmWHivsKnY5
       secretKey: ctIrJtfiUxt75oYPYgKPPAUkKkRucs1ZCPn_5f8P
     oss:
-      privateHost: pi4dnu0sz.bkt.clouddn.com  #这里原来没有的
-      publicHost: pi4djncfj.bkt.clouddn.com  #这里原来没有的,怎么获取的
+      privateHost: http://pi4dnu0sz.bkt.clouddn.com  #这里原来没有的
+      publicHost: http://pi4djncfj.bkt.clouddn.com  #这里原来没有的,怎么获取的
       fileMaxSize: 104857600
   oauth2:
     jwtSigningKey: paascloud

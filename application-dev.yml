@@ -127,8 +127,8 @@ paascloud:
       accessKey: 6JIGcCQXbb4omC1MAyVOhweoOySSFtmWHivsKnY5
       secretKey: ctIrJtfiUxt75oYPYgKPPAUkKkRucs1ZCPn_5f8P
     oss:
-      privateHost: pi4dnu0sz.bkt.clouddn.com
-      publicHost: pi4djncfj.bkt.clouddn.com
+      privateHost: http://pi4dnu0sz.bkt.clouddn.com
+      publicHost: http://pi4djncfj.bkt.clouddn.com
   alipay:
     callback:
       url: http://dev-api.paascloud.net/omc/pay/alipayCallback
