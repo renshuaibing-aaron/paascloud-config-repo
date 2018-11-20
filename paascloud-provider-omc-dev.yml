@@ -69,7 +69,8 @@ paascloud:
       tokenStore: jwt
   alipay:
     callback:
-      url: http://dev-api.paascloud.net:7979/omc/pay/alipayCallback
+      #url: http://10.25.133.225:7979/omc/pay/alipayCallback
+      url: http://101.132.104.189:7979/omc/pay/alipayCallback  
     qrCode:
       pcPath: /media/File/alipay/QRCode
       qiniuPath: alipay/QRCode/
