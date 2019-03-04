@@ -8,6 +8,10 @@ spring:
     cache-names: mdc-cache
   datasource:
     url: jdbc:mysql://paascloud-db-mysql:3306/paascloud_mdc?characterEncoding=utf8&useSSL=false
+  data:
+    elasticsearch:
+      cluster-nodes: 101.132.104.189:9300
+      cluster-name: my-application
 
 liquibase:
   change-log: classpath:liquibase/index.xml
