@@ -40,7 +40,7 @@ security:
   oauth2:
     client:
       clientId: paascloud-client-mdc
-      clientSecret: paascloudClientSecret
+      clientSecret: paascloudClientSecre
       access-token-uri: http://paascloud-gateway:7979/uac/oauth/token
       user-authorization-uri: http://paascloud-gateway:7979/uac/oauth/authorize
     resource:
