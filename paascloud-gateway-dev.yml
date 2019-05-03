@@ -39,6 +39,18 @@ zuul:
         MaxAutoRetriesNextServer: 2
         OkToRetryOnAllOperations: false
         ConnectTimeout: 10000
+        ReadTimeout: 
+    mdc-route:
+      path: /user/**
+      sensitiveHeaders:
+      service-id: paascloud-provider-user
+      ribbon:
+        eager-load:
+          enabled: true
+        MaxAutoRetries: 1
+        MaxAutoRetriesNextServer: 2
+        OkToRetryOnAllOperations: false
+        ConnectTimeout: 10000
         ReadTimeout: 10000
     omc-route:
       path: /omc/**
