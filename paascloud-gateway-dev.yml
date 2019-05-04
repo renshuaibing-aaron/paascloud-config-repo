@@ -40,7 +40,7 @@ zuul:
         OkToRetryOnAllOperations: false
         ConnectTimeout: 10000
         ReadTimeout: 
-    mdc-route:
+    user-route:
       path: /user/**
       sensitiveHeaders:
       service-id: paascloud-provider-user
