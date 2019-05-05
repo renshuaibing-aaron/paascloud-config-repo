@@ -39,7 +39,7 @@ pagehelper:
 security:
   oauth2:
     client:
-      clientId: paascloud-client-mdc
+      clientId: paascloud-client-md
       clientSecret: paascloudClientSecret
       access-token-uri: http://paascloud-gateway:7979/uac/oauth/token
       user-authorization-uri: http://paascloud-gateway:7979/uac/oauth/authorize
