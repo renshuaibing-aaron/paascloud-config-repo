@@ -41,13 +41,13 @@ security:
     client:
       clientId: paascloud-client-mdc
       clientSecret: paascloudClientSecret
-      access-token-uri: http://paascloud-gateway:7979/uac/oauth/token
-      user-authorization-uri: http://paascloud-gateway:7979/uac/oauth/authorize
+      access-token-uri: http://paascloud-gateway:7979/uac/oauth/toke
+      user-authorization-uri: http://paascloud-gateway:7979/uac/oauth/authori
     resource:
       user-info-uri: http://paascloud-gateway:7979/uac/user
       prefer-token-info: false
       jwt:
-        key-uri: http://paascloud-provider-uac:8000/oauth/token_ke
+        key-uri: http://paascloud-provider-uac:8000/oauth/token_key   
 
 paascloud:
   enableSqlLogInterceptor: false
