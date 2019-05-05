@@ -97,40 +97,40 @@ paascloud:
       clients[1]:
         clientId: paascloud-browser
         clientSecret: paascloudClientSecret
-        accessTokenValidateSeconds: 300000
+        accessTokenValidateSeconds: 30000000
         scope: "*"
       clients[2]:
         clientId: paascloud-client-gateway
         clientSecret: paascloudClientSecret
-        accessTokenValidateSeconds: 300000
+        accessTokenValidateSeconds: 30000000
         scope: "*"
       clients[3]:
         clientId: paascloud-client-zipkin
         clientSecret: paascloudClientSecret
-        accessTokenValidateSeconds: 300000
+        accessTokenValidateSeconds: 30000000
         scope: "*"
       clients[4]:
         clientId: paascloud-client-mdc
         clientSecret: paascloudClientSecret
-        accessTokenValidateSeconds: 300000
+        accessTokenValidateSeconds: 30000000
         scope: "*"
       clients[8]:
         clientId: paascloud-client-user
         clientSecret: paascloudClientSecret
-        accessTokenValidateSeconds: 300000
+        accessTokenValidateSeconds: 30000000
         scope: "*"
       clients[5]:
         clientId: paascloud-client-omc
         clientSecret: paascloudClientSecret
-        accessTokenValidateSeconds: 300000
+        accessTokenValidateSeconds: 30000000
         scope: "*"
       clients[6]:
         clientId: paascloud-client-opc
         clientSecret: paascloudClientSecret
-        accessTokenValidateSeconds: 300000
+        accessTokenValidateSeconds: 30000000
         scope: "*"
       clients[7]:
         clientId: paascloud-client-tpc
         clientSecret: paascloudClientSecret
-        accessTokenValidateSeconds: 300000
+        accessTokenValidateSeconds: 30000000
         scope: "*"
