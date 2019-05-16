@@ -2,7 +2,7 @@ spring:
   cache:
     cache-names: tpc-cache
   datasource:
-    url: jdbc:mysql://paascloud-db-mysql:3306/paascloud_tpc?characterEncoding=utf8&useSSL=false
+    url: jdbc:mysql://paascloud-db-mysql:3306/paascloud_log?characterEncoding=utf8&useSSL=false
 
 liquibase:
   change-log: classpath:liquibase/index.xml
@@ -30,7 +30,7 @@ pagehelper:
 security:
   oauth2:
     client:
-      clientId: paascloud-client-mdc
+      clientId: paascloud-client-log
       clientSecret: paascloudClientSecret
       access-token-uri: http://paascloud-gateway:7979/uac/oauth/token
       user-authorization-uri: http://paascloud-gateway:7979/uac/oauth/authorize
