@@ -144,3 +144,8 @@ paascloud:
         clientSecret: paascloudClientSecret
         accessTokenValidateSeconds: 30000000
         scope: "*"
+      clients[11]:
+        clientId: paascloud-client-storage
+        clientSecret: paascloudClientSecret
+        accessTokenValidateSeconds: 30000000
+        scope: "*"
