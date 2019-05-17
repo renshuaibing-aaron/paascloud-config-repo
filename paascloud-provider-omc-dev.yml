@@ -63,8 +63,8 @@ paascloud:
     client:
       id: ${security.oauth2.resource.id}
       accessTokenUrl: ${security.oauth2.client.access-token-uri}
-      clientId: ${security.oauth2.client.clientId}
-      clientSecret: ${security.oauth2.client.clientSecret}
+      clientId: paascloud-client-123
+      clientSecret: 11111
       clientAuthenticationScheme: header
       tokenStore: jwt
   alipay:
