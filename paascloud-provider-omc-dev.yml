@@ -63,7 +63,7 @@ paascloud:
     client:
       id: ${security.oauth2.resource.id}
       accessTokenUrl: ${security.oauth2.client.access-token-uri}
-      clientId: ${security.oauth2.client.clientId}
+      clientId: paascloud-client-mdc
       clientSecret: ${security.oauth2.client.clientSecret}
       clientAuthenticationScheme: header
       tokenStore: jwt
